@@ -1,6 +1,6 @@
 baseURL = "danielullrich.netlify.app"
 title = "My Portfolio Title"
-theme = "hugo-PaperMod"
+theme = "blank"
 
 # Theme configuration
 [params]
