@@ -1,5 +1,5 @@
-baseURL = "danielullrich.netlify.app"
-title = "My Portfolio Title"
+baseURL = "danielullrich.com"
+title = "Daniel Ullrich"
 theme = "blank"
 
 # Theme configuration
@@ -7,14 +7,14 @@ theme = "blank"
 env = "production"
 author = "<author>"
 description = "Portfolio description"
-keywords = ["Blog", "Portfolio", "PaperMod"]
+keywords = ["Portfolio"]
 disableThemeToggle = false
-ShowReadingTime = true
-ShowShareButtons = true
-ShowPostNavLinks = true
-ShowBreadCrumbs = true
+ShowReadingTime = false
+ShowShareButtons = false
+ShowPostNavLinks = false
+ShowBreadCrumbs = false
 ShowCodeCopyButtons = true
-disableScrollToTop = false
+disableScrollToTop = true
 
 [params.label]
 text = "Home"
@@ -23,7 +23,7 @@ iconHeight = 24
 
 [params.profileMode]
 enabled = true
-title = "Jane Doe"
+title = "Daniel Ullrich"
 subtitle = "I am a Person"
 imageUrl = "profile.png"
 imageWidth = 120
