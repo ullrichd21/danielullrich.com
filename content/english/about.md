@@ -9,7 +9,7 @@ button:
 
 ########################### Experience ##############################
 experience:
-  enable : true
+  enable : false
   title : "EXPERIENCE"
   experience_list:
     # experience item loop
@@ -17,13 +17,13 @@ experience:
       company : "Fiverr.com"
       duration : "2016-2018"
       content : "I work with HTML, CSS, and Javascript to create websites and web applications like Personal, Business, Blog, E-comerches etc."
-      
+
     # experience item loop
     - name : "Graphic Designer"
       company : "Fiverr.com"
       duration : "2015-2018"
       content : "Graphic design is art with a purpose. I love illustration, so logo desing is my favorite work. But i can do many things with graphics."
-      
+
     # experience item loop
     - name : "Database Manager"
       company : "Polytechnic"
@@ -32,30 +32,32 @@ experience:
 
 ############################### Skill #################################
 skill:
-  enable : true
+  enable : false
   title : "SKILL"
   skill_list:
     # skill item loop
     - name : "Web Development"
       percentage : "98%"
-      
+
     # skill item loop
     - name : "Graphic Design"
       percentage : "85%"
-      
+
     # skill item loop
     - name : "Database Management"
       percentage : "90%"
-      
+
     # skill item loop
     - name : "Wordpress"
       percentage : "70%"
 
 
 # custom style
-custom_class: "" 
-custom_attributes: "" 
+custom_class: ""
+custom_attributes: ""
 custom_css: ""
 ---
 
-It's Somrat, Professional Web Developer. I love to write code, it's my passoin. I am here to help you, i am here to design your web page. i can help you to describe yourself in the best way.<br>No matter how difficult your web page is, i will find an easy way and complete your work anyway. Stay connect with me........😊
+My name is Daniel (Danny) Ullrich and I’m currently a student at Allegheny College majoring in Computer Science with a minor in Art, Science, and Innovation (ASI). I have been programming since I was 10 years old and I have always had a passion for all things technology and DIY. I am a maker and a tinkerer using my skills as a computer scientist to explore the intersection of art and technology, usually through the lens of a camera.
+
+From video games to websites and security, I am interested in all things technology and computer science. I enjoy learning new skills and platforms in the pursuit of elegant solutions to problems.

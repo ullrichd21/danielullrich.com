@@ -1,14 +1,12 @@
 ---
-title : "I'm Somrat Sorkar"
+title : "Daniel Ullrich"
 # full screen navigation
-first_name : "MacGyver"
-last_name : "SOMRAT"
+first_name : "Daniel"
+last_name : "Ullrich"
 bg_image : "images/backgrounds/full-nav-bg.jpg"
 # animated text loop
 occupations:
-- "Web Developer"
-- "Graphic Designer"
-- "Database Manager"
+- "Computer Scientist, Photographer, and Digital Tinkerer."
 
 # slider background image loop
 slider_images:
@@ -24,8 +22,8 @@ button:
 
 
 # custom style
-custom_class: "" 
-custom_attributes: "" 
+custom_class: ""
+custom_attributes: ""
 custom_css: ""
 
 ---
