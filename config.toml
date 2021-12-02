@@ -1,6 +1,6 @@
 baseURL = ""
 title = "Daniel Ullrich"
-theme = "blank"
+theme = "somrat"
 
 # Theme configuration
 [params]
