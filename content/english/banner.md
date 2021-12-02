@@ -16,7 +16,7 @@ slider_images:
 
 # button
 button:
-  enable : true
+  enable : false
   label : "HIRE ME"
   link : "#contact"
 
