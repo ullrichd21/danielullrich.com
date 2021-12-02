@@ -24,8 +24,8 @@
         <div class="head-holder">
           <h1 class="introduction">{{ .Title | markdownify | emojify }}</h1>
           <div class="text">
-            <strong class="cd-headline clip">
-              <span class="cd-words-wrapper">
+            <strong class="Sclip">
+              <span class="wrapper">
                 {{ range $index, $elements:= .Params.occupations }}
                 <b {{ if eq $index 0 }} class="is-visible" {{ end }}>{{ . }}</b>
                 {{ end }}
