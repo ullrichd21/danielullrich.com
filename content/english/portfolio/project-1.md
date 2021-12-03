@@ -1,7 +1,8 @@
 ---
 title: "Sol"
 date: 2020-04-14T12:14:34+06:00
-image: "photography/sol/sol_church1.jpg"
+image: "photography/sol/cover.jpg"
+thumbnail: "photography/sol/thumbnail.jpg"
 categories: ["photography"]
 description: "This is meta description."
 draft: false
