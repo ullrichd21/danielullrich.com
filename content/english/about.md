@@ -1,11 +1,11 @@
 ---
-title : "KNOW MORE <br> ABOUT ME"
+title : "ABOUT ME"
 image : "images/backgrounds/portrait.jpg"
 # button
 button:
   enable : true
   label : "DOWNLOAD MY RESUME"
-  link : "#"
+  link : "/files/resume.pdf"
 
 ########################### Experience ##############################
 experience:
