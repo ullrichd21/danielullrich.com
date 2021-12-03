@@ -67,12 +67,12 @@ logo_light = "images/logo.png"
 logo_dark = "images/logo-dark.png"
 logo_width = "150px"
 # Meta data
-description = "This is meta description"
+description = "Daniel Ullrich's Portfolio"
 author = "somrat"
 
 # Preloader
 [params.preloader]
-enable = true
+enable = false
 preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 
 ############################# social site ########################
