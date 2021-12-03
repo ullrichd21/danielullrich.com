@@ -79,11 +79,11 @@ preloader = "images/preloader.gif" # use jpg, png, svg or gif format.
 
 [[params.social]]
 icon = "fab fa-github"
-link = "https://github.com/somratpro"
+link = "https://github.com/ullrichd21"
 
 [[params.social]]
 icon = "fab fa-linkedin"
-link = "https://www.linkedin.com/in/somratpro"
+link = "https://www.linkedin.com/in/daniel-ullrich-29b850188"
 # [[params.social]]
 # icon = "fab fa-facebook-f"
 # link = "https://www.facebook.com/somratpro"
