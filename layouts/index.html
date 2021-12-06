@@ -324,11 +324,11 @@
           <div class="col-lg-4 col-md-6 col-sm-6 col-12 filtr-item"
             data-groups="[{{range $index, $element:= .Params.categories }}{{if ne $index 0}},{{end}}&quot;{{. | urlize}}&quot;{{ end }}]">
             <div class="item-holder">
-              <a class="image-pop" href="{{ .Params.image | absURL }}" title="{{ .Title | markdownify }}">
-                 <img src="{{ .Params.image | absURL }}" alt="{{ .Title | markdownify }}">
+              <a href="{{ .Permalink }}" title="{{ .Params.title_small | markdownify }}">
+                 <img src="{{ .Params.thumbnail | absURL }}" alt="{{ .Params.title_small | markdownify }}" href="{{.Permalink}}">
               </a>
               <div class="item-caption">
-                <h2 class="mt-2"><a class="text-white" href="{{.Permalink}}">{{ .Title | markdownify }}</a></h2>
+                <h2 class="mt-2"><a class="text-white" href="{{.Permalink}}">{{ .Params.title_small | markdownify }}</a></h2>
                 {{ range .Params.categories }}
                 <p class="mb-0 text-light">{{ . | title }}</p>
                 {{ end }}
