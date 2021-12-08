@@ -532,7 +532,7 @@ input:checked+label span:last-child {
   width: 300px;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
+  justify-content: space-evenly;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -555,14 +555,14 @@ input:checked+label span:last-child {
 }
 
 .full-nav-icons .fab,
-.to-top .fab {
+.to-top .fab, .fas {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   background: #fff;
   padding: 7px;
 }
 
-.full-nav-icons .fab:hover {
+.full-nav-icons .fab:hover .fas:hover{
   -webkit-transform: translateY(5px);
   transform: translateY(5px);
 }
@@ -1664,7 +1664,7 @@ textarea.form-control::-webkit-input-placeholder,
   width: 210px;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
-  justify-content: space-between;
+  justify-content: space-evenly;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;

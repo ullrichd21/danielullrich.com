@@ -84,6 +84,11 @@ link = "https://github.com/ullrichd21"
 [[params.social]]
 icon = "fab fa-linkedin"
 link = "https://www.linkedin.com/in/daniel-ullrich-29b850188"
+
+[[params.social]]
+icon = "fas fa-envelope-square"
+link = "mailto:ullrichdanny@gmail.com"
+
 # [[params.social]]
 # icon = "fab fa-facebook-f"
 # link = "https://www.facebook.com/somratpro"

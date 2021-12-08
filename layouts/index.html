@@ -187,7 +187,7 @@
           <div class="content">{{ .Content | markdownify | emojify }}</div>
           {{ with .Params.button }}
           {{ if .enable }}
-          <a href="{{ .link | absURL }}" class="download-cv hvr-icon-hang"> {{ .label }} &nbsp; &nbsp; &nbsp;</a>
+          <a href="{{ .link | absURL }}" class="download-cv hvr-icon-hang"> {{ .label }} &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a>
           {{ end }}
           {{ end }}
         </div>
@@ -408,8 +408,11 @@
 <section class="contact {{.Params.custom_class}}" {{.Params.custom_attributes | safeHTMLAttr}} style="background-image: url('{{.Params.bg_image | absURL}}');" id="contact">
   <div class="container">
     <div class="row">
-      <div class="contact-holder col-lg-8 offset-lg-2 col-sm-8 offset-sm-2">
+      <div class="contact-holder col-lg-8 offset-lg-2 col-sm-8">
         <h1 class="wow fadeInUp" data-wow-duration="1.5s">{{ .Title | markdownify}}</h1>
+        <div class="text-holder wow fadeInUp col text-center" data-wow-duration="1.5s">
+          <a href="{{ .Params.email }}" class="email-me hvr-icon-hang"> {{ .Params.email_text }}         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a>
+        </div>
         <!-- <form method="POST" action="{{ .Params.form_action }}" data-toggle="validator">
           <div class="form-container row wow fadeInUp" data-wow-duration="1.5s">
             <div class="form-group col-lg-6">
